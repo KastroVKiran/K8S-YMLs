@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-mysql
-          image: ashokit/spring-boot-mysql
+          image: kastrov/spring-boot-mysql
           ports:
             - containerPort: 8080
           env:   # Setting Enviornmental Variables
