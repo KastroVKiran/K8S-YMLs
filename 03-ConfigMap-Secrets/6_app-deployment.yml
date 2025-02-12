@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-mysql
-          image: kastrov/spring-boot-mysql
+          image: kastrov/bookapp
           ports:
             - containerPort: 8080
           env:   # Setting Enviornmental Variables
